@@ -62,4 +62,4 @@ Call smart contract example:
         }
         String contractAddress="tNULSeBaN3qcFmtijoQbFKZkVivq2vspbjQuUf";
         Object result= ContractOperUtil.callContractFormLocal(Pocm.class,contractAddress,"depositForOwn",null,"tNULSeBaMu38g1vnJsSZUCwTDU9GsE5TVNUtpD",new BigInteger("400000000"),25);
-        System.out.println("-----2 result-----"+result);
+        System.out.println("-----call result-----"+result);
