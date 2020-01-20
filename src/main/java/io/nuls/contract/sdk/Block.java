@@ -1,10 +1,7 @@
 package io.nuls.contract.sdk;
 
 import io.nuls.contract.sdk.util.ParameterUtils;
-import io.nuls.contract.service.ContractService;
-import io.nuls.contract.service.impl.ContractServiceImpl;
 import io.nuls.core.basic.Result;
-import io.nuls.core.core.annotation.Autowired;
 import io.nuls.v2.NulsSDKBootStrap;
 import io.nuls.v2.model.dto.BlockHeaderDto;
 import io.nuls.v2.util.NulsSDKTool;
@@ -15,9 +12,6 @@ import java.util.Date;
 
 public class Block {
 
-/*    @Autowired
-    private static ContractService contractService= new ContractServiceImpl();
-    */
     /**
      * native
      * 给定块的区块头

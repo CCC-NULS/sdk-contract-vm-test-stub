@@ -1,7 +1,7 @@
 package io.nuls.contract.service.impl;
 
 import io.nuls.contract.sdk.util.ParameterUtils;
-import io.nuls.contract.service.AccountService;
+import io.nuls.contract.service.AccountServiceV2;
 import io.nuls.contract.service.HttpClient;
 import io.nuls.contract.service.dto.BalanceInfo;
 import io.nuls.core.core.annotation.Autowired;
@@ -10,7 +10,7 @@ import io.nuls.core.exception.NulsException;
 import io.nuls.core.log.Log;
 
 @Service
-public class AccountServiceImpl implements AccountService {
+public class AccountServiceV2Impl implements AccountServiceV2 {
 
         @Autowired
         private HttpClient httpClient;

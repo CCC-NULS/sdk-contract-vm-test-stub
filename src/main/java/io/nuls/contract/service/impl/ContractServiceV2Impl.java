@@ -3,7 +3,7 @@ package io.nuls.contract.service.impl;
 import io.nuls.contract.sdk.Address;
 import io.nuls.contract.sdk.BlockHeader;
 import io.nuls.contract.sdk.util.ParameterUtils;
-import io.nuls.contract.service.ContractService;
+import io.nuls.contract.service.ContractServiceV2;
 import io.nuls.core.basic.Result;
 import io.nuls.core.core.annotation.Service;
 import io.nuls.v2.NulsSDKBootStrap;
@@ -15,7 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Service
-public class ContractServiceImpl implements ContractService {
+public class ContractServiceV2Impl implements ContractServiceV2 {
     @Override
     public BlockHeader getBlockHeader(long height) {
         BlockHeader blockHeader =new BlockHeader();

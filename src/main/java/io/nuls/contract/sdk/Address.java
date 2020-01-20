@@ -13,10 +13,6 @@ import java.util.Map;
 
 public class Address {
     private final String address;
-/*
-    @Autowired
-    private AccountService accountService = new AccountServiceImpl();
-*/
 
     public Address(String address) {
         valid(address);
